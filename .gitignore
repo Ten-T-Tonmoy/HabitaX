@@ -1,0 +1,90 @@
+# ─────────────────────────────────────────────
+# Dependencies
+# ─────────────────────────────────────────────
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+yarn.lock.bak
+
+# ─────────────────────────────────────────────
+# Expo
+# ─────────────────────────────────────────────
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# ─────────────────────────────────────────────
+# React Native / Metro
+# ─────────────────────────────────────────────
+.metro-health-check*
+*.jsbundle
+*.bundle
+.haste_map
+.metro-cache/
+
+# ─────────────────────────────────────────────
+# Native build output (from `expo prebuild`)
+# ─────────────────────────────────────────────
+# If you ever run `npx expo prebuild`, these are generated.
+# Keep them ignored because they can be regenerated.
+android/
+ios/
+*.keystore
+*.jks
+!debug.keystore
+
+# ─────────────────────────────────────────────
+# EAS / signing
+# ─────────────────────────────────────────────
+.easignore
+# Keep eas.json in git (config) but ignore secrets
+credentials.json
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# ─────────────────────────────────────────────
+# Env / secrets
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────
+# OS junk
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────
+# Editors / IDE
+# ─────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# ─────────────────────────────────────────────
+# Misc
+# ─────────────────────────────────────────────
+.cache/
+tmp/
+temp/
+coverage/
+*.tgz

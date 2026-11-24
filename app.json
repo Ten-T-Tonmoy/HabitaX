@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "PocketFlow",
+    "slug": "pocketflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow PocketFlow to add images to your notes."
+        }
+      ],
+      "expo-notifications",
+      "expo-document-picker"
+    ],
+    "android": {
+      "package": "com.example.pocketflow",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.pocketflow"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d423f73-74c5-4e5c-b40a-d11c830c8248"
+      }
+    }
+  }
+}
